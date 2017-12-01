@@ -5,8 +5,8 @@ import qrcode
 qr = qrcode.QRCode(
     version = 1,
     error_correction = qrcode.constants.ERROR_CORRECT_H,
-    box_size = 10,
-    border = 4,
+    box_size = 8,
+    border = 2,
 )
 
 # The data that you want to store
