@@ -19,8 +19,5 @@ qr.make(fit=True)
 # Create an image from the QR Code instance
 img = qr.make_image()
 
-# Save it somewhere, change the extension as needed:
-# img.save("image.png")
-# img.save("image.bmp")
-# img.save("image.jpeg")
+# Save it somewhere, change the extension as needed.
 img.save("image.jpg")
